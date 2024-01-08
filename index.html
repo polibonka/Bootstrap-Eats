@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap Eats</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container-fluid">
+        <nav
+          class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between"
+        >
+          <a class="navbar-brand" href="#">
+            <img src="./svg/logo.svg" alt="logo" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Product</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Faq</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="eats">
+        <div class="container-fluid">
+          <h3 class="eat__subtitle text-center pt-5 text-white fs-5">
+            Restaurant app
+          </h3>
+          <h1 class="eat__title text-center text-white fw-bolder fs-1">
+            Why stay hungry when <br />
+            you can order form Eats
+          </h1>
+          <h2
+            class="eat_j_sub-title caption text-center pb-5 text-white fw-light fs-5"
+          >
+            Order in exchange for hunger
+          </h2>
+          <div
+            class="eats__btns d-flex justify-content-center gap-5"
+            style="padding-bottom: 158px"
+          >
+            <button
+              class="eats__btn btn text-white"
+              style="
+                width: 159px;
+                border-radius: 30px;
+                padding: 7px 0px;
+                background-color: orangered;
+              "
+            >
+              Delivery
+            </button>
+            <button
+              type="button"
+              class="eats__btn btn btn-outline-light"
+              style="width: 159px; border-radius: 30px; padding: 7px 0px"
+            >
+              Menu
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="works ps-5 pe-5 pb-5">
+        <div class="container-fluid">
+          <h2 class="work__title text-center pt-5 align-items-center">
+            How the app works
+          </h2>
+          <div
+            class="works__create d-flex justify-content-between pt-5 align-items-center"
+          >
+            <img src="./img/app.png" alt="app" />
+            <div class="works__create--account">
+              <h4 class="works__create--subtitle" style="color: orangered">
+                Create an account
+              </h4>
+              <h3 class="works__create--title">
+                Create/login to an existing <br />account to get started
+              </h3>
+              <p class="works__create--descr">
+                An account is created with your email <br />
+                and a desired password
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="works__create d-flex justify-content-between pt-5 d-flex align-items-center"
+          >
+            <div class="works__create--account">
+              <h4 class="works__create--subtitle" style="color: orangered">
+                Explore varietie
+              </h4>
+              <h3 class="works__create--title">
+                Shop for your favorites <br />
+                meal as e dey hot.
+              </h3>
+              <p class="works__create--descr">
+                An account is created with your email and a desired password
+              </p>
+            </div>
+            <img src="./img/app2.png" alt="app" />
+          </div>
+        </div>
+      </section>
+      <section class="store" style="padding-top: 146px; padding-bottom: 132px">
+        <div class="container-fluid">
+          <h2 class="store__title text-white text-center pb-2">Order now.</h2>
+          <p class="store__text text-white text-center pb-4">
+            Available on your favorite store. Start your premium experience now
+          </p>
+          <div class="store__btns d-flex justify-content-center gap-3 pb-5">
+            <button
+              class="store__btn btn text-white"
+              style="background-color: orangered; padding: 10px 31px"
+            >
+              Playstore
+            </button>
+            <button
+              type="button"
+              class="store__btn btn btn-outline-light"
+              style="padding: 10px 31px"
+            >
+              App store
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer pt-5 pb-5">
+      <div class="container-fluid">
+        <div
+          class="footer__box d-flex justify-content-between align-items-center"
+        >
+          <img src="./svg/logo.svg" alt="logo footer" />
+          <p class="footer__text">Copywright 2020 Bella Onojie.com</p>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
